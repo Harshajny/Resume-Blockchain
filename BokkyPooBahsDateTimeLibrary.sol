@@ -70,7 +70,7 @@ library BokkyPooBahsDateTimeLibrary {
           - 3 * ((_year + 4900 + (_month - 14) / 12) / 100) / 4
           - OFFSET19700101;
 
-        days = uint(_days);
+        _days = uint(__days);
     }
 
     // ------------------------------------------------------------------------
